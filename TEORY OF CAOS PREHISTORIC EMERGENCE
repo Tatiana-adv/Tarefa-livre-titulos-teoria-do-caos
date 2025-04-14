@@ -1,0 +1,138 @@
+# Tarefa-livre-titulos-teoria-do-caos
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prehistoric Emergence</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto Condensed', sans-serif;
+            background-color: #111;
+            color: #f4f4f4;
+        }
+        header {
+            background: #2b2b2b;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #d12d2d;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            color: #ff4b4b;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .news {
+            margin-bottom: 50px;
+        }
+        .news img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .news h2 {
+            font-size: 2em;
+            color: #ff9f43;
+        }
+        .news p {
+            font-size: 1.1em;
+            line-height: 1.6em;
+        }
+        form {
+            background: #1d1d1d;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        form h2 {
+            color: #00d1b2;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        form button {
+            background: #00d1b2;
+            color: #111;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        form button:hover {
+            background: #00b89c;
+        }
+        footer {
+            background: #222;
+            color: #aaa;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prehistoric Emergence</h1>
+    </header>
+
+    <section>
+        <div class="news">
+            <h2>🦖 Tiranossauro com penas ataca cidade no Texas</h2>
+            <p>Um Tiranossauro com plumagem escura causou caos em uma cidade no Texas. O saldo até agora é de 2.388 pessoas extremamente feridas e 22.458 em estado crítico. Cientistas ainda tentam entender como criaturas extintas retornaram.</p>
+            <img src="/mnt/data/caos rep.webp" alt="Caos na cidade após ataque de dinossauro">
+        </div>
+
+        <div class="news">
+            <h2>🌊 Mosassauro é avistado na costa da Califórnia</h2>
+            <p>Pescadores relatam o aparecimento de uma criatura colossal emergindo do mar. Especialistas acreditam que se trata de um Mosassauro. O litoral foi interditado imediatamente.</p>
+            <img src="/mnt/data/caos.jpeg" alt="Mosassauro emergindo do oceano">
+        </div>
+
+        <div class="news">
+            <h2>🦕 Carnotauro surge em meio a floresta iluminada</h2>
+            <p>Durante um patrulhamento florestal noturno, oficiais se depararam com um Carnotauro. Apesar da aparência ameaçadora, o animal parecia curioso e não atacou.</p>
+            <img src="/mnt/data/carnotauro sobre luz.webp" alt="Carnotauro sob luz na floresta">
+        </div>
+
+        <div class="news">
+            <h2>🦜 Velociraptor observado em área urbana interagindo com frutas</h2>
+            <p>Moradores assustados registraram um Velociraptor empoleirado sobre uma fruteira em uma casa. O animal parecia estar explorando o ambiente com curiosidade.</p>
+            <img src="/mnt/data/dino.webp" alt="Velociraptor em cozinha">
+        </div>
+
+        <div class="news">
+            <h2>🚨 Ataque em estação de metrô por criatura semelhante a Deinonychus</h2>
+            <p>Uma estação subterrânea foi palco de pânico quando uma criatura semelhante a um Deinonychus emergiu das sombras. Autoridades isolaram o local.</p>
+            <img src="/mnt/data/velociraptor.webp" alt="Dinossauro em túnel escuro">
+        </div>
+    </section>
+
+    <section>
+        <form>
+            <h2>Envie sua experiência</h2>
+            <p>Presenciou um evento pré-histórico? Compartilhe conosco.</p>
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu e-mail" required>
+            <textarea rows="5" placeholder="Descreva o que aconteceu..." required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2025 Prehistoric Emergence - Todos os direitos reservados.
+    </footer>
+</body>
+</html>
